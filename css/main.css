@@ -58,6 +58,9 @@ body{
 #description{
 	width: 80%;
 	margin: auto;
+	display: flex;
+	flex-flow: column wrap;
+	align-content: center
 }
 #video{
 	width: 37vw;
