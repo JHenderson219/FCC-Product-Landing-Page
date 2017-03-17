@@ -4,15 +4,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Product Landing Page</title>
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css" type="text/css">
   
   <!-- This inline style is only a workaround to make sure that all the tests pass. It is replicated in the external CSS -->
 
   <style>
     @media (max-width: 600px){
-      #header-img{
-      }
     } 
     #header{
       display: flex;
@@ -28,7 +26,8 @@
         <a href="#description" class="nav-link">What they are</a>
         <a href="#video" class="nav-link">Where they came from</a>
         <a href="#purchase" class="nav-link">How to buy</a>
-
+        <a href="#" id="menu" class="nav-link"> Menu </a>
+      </nav>
     </header>
     <div id="main">
       <div class="description">
@@ -36,7 +35,7 @@
         <p>Like many others, Katherine suffered from terrible headaches when viewing 3D movies.</p> 
         <p>Being a fan of going to the movies with his wife, Hank decided he needed to do something to bring this suffering to an end.</p>
         <p>Thus, the juggernaut known as 2D glasses was born.</p>
-        <p> Below is the video where Hank first announced the existence of 2D glasses. </p>
+        <p> This wonder of technology was first announced in 2011 on the Youtube channel "Vlogbrothers". </p>
       </div>
       <iframe id="video" src="https://www.youtube.com/embed/SsJHbw5iRds"></iframe>
 
@@ -45,11 +44,12 @@
       </div>
       <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
       <label for="email"> Email </label>
-      <input id="email" type="email" placeholder="your email goes here" name="email">
+      <input id="email" type="email" placeholder="you@example.com" name="email">
       <input id="submit" type="submit">
     </form>
     <div class="description">
       <p> Interested in buying a pair? Just click the button below!</p>
+      <P> (For real this time!)</P>
     </div>
     <a class="buy-link" id="purchase" href="https://store.dftba.com/products/2d-glasses" target="_blank"> Click me! </a>
   </div>
