@@ -88,3 +88,18 @@ input{
 	box-shadow: 2px 2px 2px #9E9E9D; 
 	font-size: 3vw;
 }
+
+.buy-link{
+	color: black;
+	text-decoration: none;
+	margin: 5px;
+	font-size: 2em;
+	background-color: #D2D2D1;
+	align-self: center;
+	box-shadow: 2px 2px 2px #9E9E9D;
+	padding: 5px;
+}
+
+#video{
+	box-shadow: 2px 2px 2px #9E9E9D;
+}
