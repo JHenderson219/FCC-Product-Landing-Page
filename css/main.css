@@ -105,6 +105,9 @@ input{
 #video{
 	box-shadow: 2px 2px 2px #9E9E9D;
 }
+#menuButton{
+	display: none;
+}
 #menu{
 	display: none;
 }
@@ -116,10 +119,19 @@ input{
 	.nav-link{
 		display: none;
 	}
-	#menu{
+	#menuButton{
 	display: flex;
 	align-self: flex-end;
 	font-size: 2em;
+	}
+	#menu{
+	position: fixed;
+	right: 0;
+	font-size: 2em;
+	background-color:#EDEDED;
+	}
+	#menu ul{
+		text-align: right;
 	}
 }
 
