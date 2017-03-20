@@ -114,7 +114,7 @@ input{
 
 @media (max-device-width: 820px){
 	#header p{
-		font-size: 1.5em
+		font-size: 2.5em
 	}
 	.nav-link{
 		display: none;
@@ -125,6 +125,7 @@ input{
 	font-size: 2em;
 	}
 	#menu{
+	display: none;
 	position: fixed;
 	right: 0;
 	font-size: 2em;
